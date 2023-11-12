@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+.App {
+  background-color: #282c34;
+  color: white;
+  padding: 2rem;
+}
+
+/* AddMovie.js */
+.AddMovie {
+  max-width: 50%;
+  margin: 5px;
+}
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+/* h6 { */
+/* margin-right: 120px; */
+/* } */
+
+/* filter.js */
+.searchform {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 40px 0;
+  padding: 15px 0;
+  background-color: #20232a;
+}
+.searching {
+  width: 400px;
+  padding: 0px;
+  margin: 0px;
+  height: 40px;
+}
+
+.searchbtn {
+  height: 40px;
+  cursor: pointer;
+}
+
+/* MovieCard.js */
+.MovieCard {
+  background-color: #282c34;
+  color: white;
+  width: 400px;
+}
+
+.MovieCard h3 {
+  cursor: pointer;
+}
+.MovieCard p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.MovieCard img {
+  margin: 20px;
+  border-radius: 50px;
+}
+
+/* MovieList.js */
+.MovieList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+img {
+  height: 35em;
+}
